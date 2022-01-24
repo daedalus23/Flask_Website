@@ -1779,6 +1779,7 @@ input, select, textarea {
 		color: rgba(255, 255, 255, 0.5);
 		position: relative;
 		top: -0.25em;
+		height: 100vh
 	}
 
 	header h3 + p {
@@ -2834,7 +2835,6 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #2e044a;
 			color: #090c42;
 		}
 
@@ -3671,7 +3671,6 @@ input, select, textarea {
 			bottom: 0;
 			color: inherit;
 			font-size: 0.8em;
-			height: 8.5em;
 			left: 50%;
 			letter-spacing: 0.225em;
 			margin-left: -8.5em;
@@ -3682,6 +3681,7 @@ input, select, textarea {
 			text-align: center;
 			text-transform: uppercase;
 			width: 16em;
+            height: 12em;
 			z-index: 1;
 		}
 
@@ -3690,14 +3690,14 @@ input, select, textarea {
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				bottom: 4em;
+				bottom: 4vh;
 				content: '';
 				display: block;
-				height: 1.5em;
 				left: 50%;
 				margin: 0 0 0 -0.75em;
 				position: absolute;
 				width: 1.5em;
+                height: 10em;
 			}
 
 		#banner:after {
@@ -3721,11 +3721,11 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 0) {
 
 			#banner {
 				padding: 7em 3em 5em 3em ;
-				height: auto;
+				height: 100vh;
 				min-height: 0;
 			}
 
